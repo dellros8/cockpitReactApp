@@ -1,5 +1,41 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+.postfromapiwrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.postfromapiextended {
+  border: none;
+  color: inherit;
+  font: inherit;
+  outline: inherit;
+  padding: 20px;
+  background-color: rgb(200,200,200,0.2);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.postfromapi {
+  border: none;
+  color: inherit;
+  font: inherit;
+  outline: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(200,200,200,0.2);
+}
+.postfromapi h2, .postfromapi p {
+  flex-basis: 33%;
+}
+
+#postheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#postheader h2, #postheader p {
+  flex-basis: 33%;
 }
